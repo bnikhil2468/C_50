@@ -1,0 +1,45 @@
+
+h1{
+    color:rgb(255, 124, 124);
+    
+}
+/* *{
+    border:solid
+}*/
+h2{
+    color:cornflowerblue;
+    background-color:bisque;
+    
+}
+
+a{
+    color: rgb(255, 153, 0);
+    
+}
+
+p{
+    color:forestgreen
+    
+}
+.header{
+    display:flex;
+    background-color: grey;
+    justify-content:space-between ;
+}
+.site_description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display:flex;
+    justify-content: flex-end;
+    
+}
